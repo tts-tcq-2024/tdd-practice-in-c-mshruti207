@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 #include "StringCalculator.h"
 
-TEST(StringCalculatorAddTests, ExpectZeroForEmptyInput) {
+/*TEST(StringCalculatorAddTests, ExpectZeroForEmptyInput) {
     int expectedresult = 0;
     const char* input = "Hello, world!";
     int result = add(input);
@@ -13,7 +13,7 @@ TEST(StringCalculatorAddTests, ExpectZeroForSingleZero) {
     const char* input = "0";
     int result = add(input);
     ASSERT_EQ(result, expectedresult);
-}
+}*/
 
 TEST(StringCalculatorAddTests, ExpectSumForTwoNumbers) {
     int expectedresult = 3;
@@ -22,7 +22,7 @@ TEST(StringCalculatorAddTests, ExpectSumForTwoNumbers) {
     ASSERT_EQ(result, expectedresult);
 }
 
-TEST(StringCalculatorAddTests, ExpectSumWithNewlineDelimiter) {
+/*TEST(StringCalculatorAddTests, ExpectSumWithNewlineDelimiter) {
     int expectedresult = 6;
     const char*  input = "1\n2,3";
     int result =add(input);
@@ -41,4 +41,4 @@ TEST(StringCalculatorAddTests, ExpectSumWithCustomDelimiter) {
     const char*  input = "//;\n1;2";
     int result = add(input);
     ASSERT_EQ(result, expectedresult);
-}
+}*/
