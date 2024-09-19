@@ -1,4 +1,6 @@
 
 int add(const char* input) {
- return 0;   
+ if (input == NULL || strlen(input)== 0) {
+        return 0;
+    } 
 }
