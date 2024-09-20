@@ -8,7 +8,7 @@ TEST(StringCalculatorAddTests, ExpectZeroForEmptyInput) {
     ASSERT_EQ(result, expectedresult);
 }
 
-/*TEST(StringCalculatorAddTests, ExpectZeroForSingleZero) {
+TEST(StringCalculatorAddTests, ExpectZeroForSingleZero) {
     int expectedresult = 0;
     const char* input = "0";
     int result = add(input);
@@ -22,7 +22,7 @@ TEST(StringCalculatorAddTests, ExpectSumForTwoNumbers) {
     ASSERT_EQ(result, expectedresult);
 }
 
-/*TEST(StringCalculatorAddTests, ExpectSumWithNewlineDelimiter) {
+TEST(StringCalculatorAddTests, ExpectSumWithNewlineDelimiter) {
     int expectedresult = 6;
     const char*  input = "1\n2,3";
     int result =add(input);
@@ -41,4 +41,4 @@ TEST(StringCalculatorAddTests, ExpectSumWithCustomDelimiter) {
     const char*  input = "//;\n1;2";
     int result = add(input);
     ASSERT_EQ(result, expectedresult);
-}*/
+}
